@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Cesar Duque | Portfolio</title>
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand mr-auto" href="#" style="font-family: 'Open Sans', sans-serif; font-weight: bold;"><i class="fas fa-code"></i> CESAR</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Acerca de mi</a>
+                        </li>
+                        </ul>
+                    </div>
+        </nav>
+        <header class="container-fluid">
+            <div class="row" style="height: 510px; background-color:#11151C;">
+                <div class="col-12 align-self-center text-center ">
+                    <img src="images/photo.png" style="width: 157px; height: 157px;" class="img-fluid" alt="">
+                    <hr>
+                    <h1 class="titulo-principal">cesar duque romero</h1>
+                    <hr class="hr-arriba">
+                    <p>estudiante ingenieria en software</p>
+                </div>
+            </div>
+        </header>
+        <section class="container-fluid" style="height: 600px;" id="projects">
+            <div class="row justify-content-center py-5">
+                <div class="col-12 text-center mt-5 mb-5">
+                    <h2 class="titulo-seccion">portafolio</h2>
+                    <hr class="hr-medio">
+                </div>
+                <div class="col-2 text-center mt-4">
+                    <img src="images/port1.png" style="width: 200px; height: 200px;" alt="">
+                </div>
+                <div class="col-2 text-center mt-4">
+                    <img src="images/port2.png" style="width: 200px; height: 200px;" alt="">
+                </div>
+                <div class="col-2 text-center mt-4">
+                    <img src="images/port3.png" style="width: 200px; height: 200px;" alt="">
+                </div>
+            </div>
+            <hr>
+        </section>
+
+        <section class="container-fluid" style="background-color: #11151C; height: 512px" id="about">
+            <div class="row justify-content-center py-5">
+                <div class="col-12 text-center mt-5 mb-5">
+                    <h3 class="titulo-seccion">acerca de mi</h2>
+                    <hr class="hr-abajo">
+                </div>
+                <div class="col-4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ducimus corporis ullam excepturi culpa repellat est laudantium sed, optio atque delectus ea omnis error animi non nulla tempora fuga aspernatur.</p>
+                </div>
+                <div class="col-4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ducimus corporis ullam excepturi culpa repellat est laudantium sed, optio atque delectus ea omnis error animi non nulla tempora fuga aspernatur.</p>
+                </div>
+                <div class="col-12 text-center mt-5">
+                <a href="#" class="btn btn-primary btn-light" role="button" aria-pressed="true">Donwload CV</a>
+                </div>  
+            </div>
+            <hr>
+        </section>
+
+        <footer class="container-fluid" style="background-color: black;">
+            <div class="row justify-content-center pt-5">
+                <div class="col-4 text-center pb-3">
+                    <h4 class="titulo-footer">Redes Sociales</h4>
+                    <a href="https://www.linkedin.com/in/cesaredur42/"><li><i class="fab fa-linkedin"></i> LinkedIn</li></a>
+                    <a href="https://www.facebook.com/cesar.duque.315"><li><i class="fab fa-facebook"></i> Facebook</li></a>
+                    <a href="https://github.com/TheMC42/"><li><i class="fab fa-github"></i> Github</li></a>
+                </div>
+                <div class="col-4 text-center pb-3">
+                    <h4 class="titulo-footer">Info</h4>
+                    <li>Template designed by: TheMC42</li>
+                </div>
+                <div class="col-12 pt-3 text-center">
+                    <p style="font-size: 12px">Copyright 2020</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+    <script src="https://kit.fontawesome.com/f017736faf.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+</html>

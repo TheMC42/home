@@ -1,0 +1,53 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+    scr
+}
+
+.navbar-dark.navbar-dark.bg-dark{
+    background-color: #000000 !important;
+}
+
+h1, h3, h4, p{
+    color: white;
+    text-transform: uppercase;
+}
+
+.titulo-principal, .titulo-seccion{
+    font-weight: bold;
+}
+
+.titulo-footer{
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+
+li{
+    list-style: none;
+    color: white;
+}
+
+h2{
+    color: #11151C;
+    text-transform: uppercase;
+}
+
+.hr-medio{
+    width: 100px; 
+    border:2px solid #11151C; 
+}
+
+.hr-arriba, .hr-abajo {
+    width: 100px; 
+    border:2px solid white;
+}
