@@ -5,7 +5,6 @@
 
 html{
     scroll-behavior: smooth;
-    scr
 }
 
 .navbar-dark.navbar-dark.bg-dark{
@@ -27,24 +26,36 @@ h1, h3, h4, p{
 
 }
 
-a:link, a:visited, a:active {
-    text-decoration:none;
-}
-
-
-li{
+.social{
     list-style: none;
     color: white;
+    list-style-position: inside;
+}
+
+.social li{
+    display: inline;
+    margin-left: 10px;
+    
+}
+
+.social li a{
+    text-decoration-line: none;
+    
+    color: #ffffff
+}
+
+.social li a:hover{
+    color: #ffffff;
 }
 
 h2{
-    color: #11151C;
+    color: #000000;
     text-transform: uppercase;
 }
 
 .hr-medio{
     width: 100px; 
-    border:2px solid #11151C; 
+    border:2px solid #000000; 
 }
 
 .hr-arriba, .hr-abajo {
